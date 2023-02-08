@@ -7,6 +7,7 @@ namespace CsharpConcepts
         private static void Main()
         {
 
+            Console.WriteLine("hello");
 
         }
     }
