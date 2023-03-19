@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/18580066/how-to-allow-remote-access-to-postgresql-database
+postgre sql port : 49193

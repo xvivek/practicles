@@ -1,0 +1,12 @@
+postgres:
+    restart: always
+    image: postgres:latest
+    container_name: postgresql
+    volumes:
+      - ${PATH_TO_STORAGE}:/var/lib/postgresql/data/:rw
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      PGDATA: /var/lib/postgresql/data/
