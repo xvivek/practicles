@@ -5,11 +5,13 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConcepts", "CSharpConcepts\CSharpConcepts.csproj", "{B28A4D98-9C63-41CE-989C-CAC2757B6882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConceptsTests", "CSharpConceptsTests\CSharpConceptsTests.csproj", "{AF281357-2A95-4AF7-B24D-98FC2BB9B33F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConceptsTests", "CSharpConceptsTests\CSharpConceptsTests.csproj", "{AF281357-2A95-4AF7-B24D-98FC2BB9B33F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConcepts.XUnit.Tests", "CSharpConcepts.XUnit.Tests\CSharpConcepts.XUnit.Tests.csproj", "{BBBA6095-ED22-41CD-859E-D74D5342C219}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConcepts.XUnit.Tests", "CSharpConcepts.XUnit.Tests\CSharpConcepts.XUnit.Tests.csproj", "{BBBA6095-ED22-41CD-859E-D74D5342C219}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConcepts.NUnit.Tests", "CSharpConcepts.NUnit.Tests\CSharpConcepts.NUnit.Tests.csproj", "{B58497E0-2D25-4414-9958-11A7F4EDEDAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConcepts.NUnit.Tests", "CSharpConcepts.NUnit.Tests\CSharpConcepts.NUnit.Tests.csproj", "{B58497E0-2D25-4414-9958-11A7F4EDEDAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Torify", "Torify\Torify.csproj", "{694AFB15-8F22-4F60-9AC1-B413A08B2508}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B58497E0-2D25-4414-9958-11A7F4EDEDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B58497E0-2D25-4414-9958-11A7F4EDEDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B58497E0-2D25-4414-9958-11A7F4EDEDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694AFB15-8F22-4F60-9AC1-B413A08B2508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694AFB15-8F22-4F60-9AC1-B413A08B2508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694AFB15-8F22-4F60-9AC1-B413A08B2508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694AFB15-8F22-4F60-9AC1-B413A08B2508}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
