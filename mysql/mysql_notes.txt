@@ -10,7 +10,7 @@ SQL Server Report Serv Port : 49184
 Report Server : http://sqlserver01:49184/Reports
 
 Postgres Sql instance port : 49193
-
+bprg123#4
 
 
 *************
