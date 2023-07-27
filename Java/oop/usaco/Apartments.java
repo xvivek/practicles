@@ -23,6 +23,7 @@ public class Apartments {
             apparment_size.add(r.nextInt());
         }
         count=0;
+        int allowed_count=0;
         while(appli_st.hasMoreTokens() && number_of_applicant > count++)
         {
             int applicant = Integer.parseInt(appli_st.nextToken());
@@ -30,19 +31,26 @@ public class Apartments {
             //|| apparment_size.stream().anyMatch(i-> i <= applicant + max_allowed_diff && i >= applicant - max_allowed_diff )
             if(apparment_size.contains(applicant) ){
                 allowed_to_allot.add(applicant);
+                allowed_count++;
             }
             else{
                 for (int item:apparment_size) {
                     if(item >= applicant - max_allowed_diff && item <= applicant + max_allowed_diff)
                     {
                         allowed_to_allot.add(applicant);
+                        allowed_count++;
                         continue;
                     }
                 }
             }
         }
-
-        System.out.println(allowed_to_allot.size());
+        if(allowed_count==0){
+            System.out.println(allowed_count);
+        }
+        else{
+            System.out.println(allowed_to_allot.size());
+        }
+        
 
     }
 

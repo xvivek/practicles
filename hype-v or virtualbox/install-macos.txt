@@ -20,7 +20,9 @@ https://osxdaily.com/2021/07/15/how-install-macos-virtualbox-windows/
 Steps that helped me:
 1. Install vbox 6.1.10
 2. Go to Windows Security -> Device security -> Core isolation details. Disable Memory integrity.
-3. Open command line as admin and run command: bcdedit /set hypervisorlaunchtype off
+3. Open command line as admin and run command: 
+disable  -> bcdedit /set hypervisorlaunchtype off
+enable -> bcdedit /set hypervisorlaunchtype auto
 4. Restart PC
 5. MacOs should run successfully
 6. Update VirtualBox to the latest version 6.1.32
