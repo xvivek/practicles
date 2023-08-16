@@ -1,0 +1,12 @@
+How to make the ultimate Terminal Prompt on Windows 11 
+https://www.youtube.com/watch?v=VT2L1SXFq9U
+
+https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal
+https://www.nerdfonts.com/font-downloads
+
+https://ohmyposh.dev/docs/installation/fonts
+https://ohmyposh.dev/docs/installation/windows
+
+
+https://github.com/shanselman
+https://gist.github.com/shanselman
