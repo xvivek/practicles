@@ -40,3 +40,43 @@ https://www.youtube.com/watch?v=0L7RiHIpyl0&t=116s
 
 CONVERT RAW -> ISO
 https://support.apple.com/en-in/guide/disk-utility/dskutl1002/mac
+
+
+
+https://techrechard.com/install-macos-sonoma-virtualbox-windows/
+
+cd "C:\Program Files\Oracle\VirtualBox\" 
+.\VBoxManage.exe modifyvm "macOS Sonoma" –-cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+.\VBoxManage setextradata "macOS Sonoma" VBoxInternal/Devices/efi/0/Config/DmiSystemProduct “MacBookPro15,1”
+.\VBoxManage setextradata "macOS Sonoma" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Mac-551B86E5744E2388"
+.\VBoxManage setextradata "macOS Sonoma" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+.\VBoxManage setextradata "macOS Sonoma" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
+
+https://techrechard.com/install-macos-sonoma-virtualbox-windows/
+.\VBoxManage.exe modifyvm "macOS Sonoma" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+.\VBoxManage setextradata "macOS Sonoma" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "MacBookPro15,1"
+.\VBoxManage setextradata "macOS Sonoma" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Mac-551B86E5744E2388"
+.\VBoxManage setextradata "macOS Sonoma" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+.\VBoxManage setextradata "macOS Sonoma" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
+
+.\VBoxManage setextradata "macos(Catalina)" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+
+
+
+https://techrechard.com/how-to-install-macos-13-ventura-on-virtualbox/
+
+.\VBoxManage.exe modifyvm "macOS 13" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+.\VBoxManage setextradata "macOS 13" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac19,3"
+.\VBoxManage setextradata "macOS 13" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+.\VBoxManage setextradata "macOS 13" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+.\VBoxManage setextradata "macOS 13" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+.\VBoxManage setextradata "macOS 13" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0
+
+
+cd "C:\Program Files\Oracle\VirtualBox\"
+VBoxManage.exe modifyvm "macOS 13" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
+VBoxManage setextradata "macOS 13" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac19,3"
+VBoxManage setextradata "macOS 13" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+VBoxManage setextradata "macOS 13" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+VBoxManage setextradata "macOS 13" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+VBoxManage setextradata "macOS 13" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1

@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaCT", "UI\AvaloniaCT\AvaloniaCT.csproj", "{C5B98672-4AA2-4EEB-A24D-FC848F50F5BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaCT.Android", "UI\AvaloniaCT.Android\AvaloniaCT.Android.csproj", "{A773A94D-2C3C-411F-B935-CA68D2144D44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaCT.Desktop", "UI\AvaloniaCT.Desktop\AvaloniaCT.Desktop.csproj", "{0D810044-A9CD-4AEC-A6D1-EBF31A756FAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaCT.iOS", "UI\AvaloniaCT.iOS\AvaloniaCT.iOS.csproj", "{E8C079A4-4256-41E3-9F65-D15A37A2A0AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaCT.Browser", "UI\AvaloniaCT.Browser\AvaloniaCT.Browser.csproj", "{35234128-2996-4FEE-A95B-2AC7BC5EA2ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{4FAE2C16-C70C-40AF-944B-A7D723A244C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dialog", "Dialog", "{261F07A8-31FB-4F8A-A2D6-B912684C3905}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTDialog", "Dialog\CTDialog\CTDialog.csproj", "{1F30D975-AEBF-415A-B7B4-6B436F7730E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5B98672-4AA2-4EEB-A24D-FC848F50F5BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B98672-4AA2-4EEB-A24D-FC848F50F5BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B98672-4AA2-4EEB-A24D-FC848F50F5BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B98672-4AA2-4EEB-A24D-FC848F50F5BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A773A94D-2C3C-411F-B935-CA68D2144D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A773A94D-2C3C-411F-B935-CA68D2144D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A773A94D-2C3C-411F-B935-CA68D2144D44}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A773A94D-2C3C-411F-B935-CA68D2144D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A773A94D-2C3C-411F-B935-CA68D2144D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A773A94D-2C3C-411F-B935-CA68D2144D44}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0D810044-A9CD-4AEC-A6D1-EBF31A756FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D810044-A9CD-4AEC-A6D1-EBF31A756FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D810044-A9CD-4AEC-A6D1-EBF31A756FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D810044-A9CD-4AEC-A6D1-EBF31A756FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C079A4-4256-41E3-9F65-D15A37A2A0AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C079A4-4256-41E3-9F65-D15A37A2A0AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C079A4-4256-41E3-9F65-D15A37A2A0AC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E8C079A4-4256-41E3-9F65-D15A37A2A0AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C079A4-4256-41E3-9F65-D15A37A2A0AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C079A4-4256-41E3-9F65-D15A37A2A0AC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{35234128-2996-4FEE-A95B-2AC7BC5EA2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35234128-2996-4FEE-A95B-2AC7BC5EA2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35234128-2996-4FEE-A95B-2AC7BC5EA2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35234128-2996-4FEE-A95B-2AC7BC5EA2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F30D975-AEBF-415A-B7B4-6B436F7730E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F30D975-AEBF-415A-B7B4-6B436F7730E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F30D975-AEBF-415A-B7B4-6B436F7730E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F30D975-AEBF-415A-B7B4-6B436F7730E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5B98672-4AA2-4EEB-A24D-FC848F50F5BD} = {4FAE2C16-C70C-40AF-944B-A7D723A244C7}
+		{A773A94D-2C3C-411F-B935-CA68D2144D44} = {4FAE2C16-C70C-40AF-944B-A7D723A244C7}
+		{0D810044-A9CD-4AEC-A6D1-EBF31A756FAE} = {4FAE2C16-C70C-40AF-944B-A7D723A244C7}
+		{E8C079A4-4256-41E3-9F65-D15A37A2A0AC} = {4FAE2C16-C70C-40AF-944B-A7D723A244C7}
+		{35234128-2996-4FEE-A95B-2AC7BC5EA2ED} = {4FAE2C16-C70C-40AF-944B-A7D723A244C7}
+		{1F30D975-AEBF-415A-B7B4-6B436F7730E1} = {261F07A8-31FB-4F8A-A2D6-B912684C3905}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B3F3605-68FD-4675-98C0-3EFB7852EC10}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,59 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Geometry.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:prism="http://prismlibrary.com/"
+		prism:ViewModelLocator.AutoWireViewModel="True"
+        xmlns:views="clr-namespace:Geometry.Views"
+		xmlns:inf="using:Geometry.Models"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Geometry.Views.Shell"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Geometry">
+
+	<!--<Window.Background>
+		<ImageBrush Source="/Assets/background.png" Stretch="UniformToFill"/>
+	</Window.Background>-->
+
+	<Grid>
+
+	
+		<!-- logo -->
+		<!--<Canvas x:Name="Logo">
+			<TextBlock Text="CFI" />
+			<TextBlock Text="STOCKTRADER"/>
+		</Canvas>-->
+
+
+		<Grid>
+			<ContentControl x:Name="ActionContent" prism:RegionManager.RegionName="{x:Static inf:RegionNames.ActionRegion}"></ContentControl>
+		</Grid>
+
+		<!-- main bar --><!--
+		<ItemsControl
+            x:Name="MainToolbar"
+            prism:RegionManager.RegionName="{x:Static inf:RegionNames.MainToolBarRegion}"/>
+
+		--><!-- content --><!--
+		<Grid>
+			<TabControl
+                x:Name="PositionBuySellTab"
+                prism:RegionManager.RegionName="{x:Static inf:RegionNames.MainRegion}"/>
+		</Grid>
+
+		--><!-- details --><!--
+		<Grid>
+			<ContentControl
+                x:Name="ActionContent"
+                prism:RegionManager.RegionName="{x:Static inf:RegionNames.ActionRegion}"/>
+		</Grid>
+
+		--><!-- sidebar --><!--
+		<Grid x:Name="SideGrid">
+			<ContentControl
+                prism:RegionManager.RegionName="{x:Static inf:RegionNames.ResearchRegion}" />
+		</Grid>-->
+
+	</Grid>
+</Window>

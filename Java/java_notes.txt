@@ -5,3 +5,36 @@ https://old.unicode-table.com/en/
 
 
 https://symbl.cc/en/
+
+
+
+http://www.dre.vanderbilt.edu/~schmidt/
+http://www.dre.vanderbilt.edu/~schmidt/DigitalLearning/
+https://github.com/douglascraigschmidt
+
+
+
+sdkmanager "platforms;android-34" --sdk_root="C:\Android\latest"
+
+sdkmanager -–update --sdk_root="C:\Android\latest"
+
+sdkmanager --install "ndk;25.2.9519653" --channel=3 --sdk_root="C:\Android\latest"
+
+sdkmanager --install "cmake;3.27.4" --sdk_root="C:\Android\latest"
+
+
+sdkmanager --list
+sdkmanager "build-tools;34.0.0" --sdk_root="C:\Android\SDK\cmdline-tools\tools"
+sdkmanager "platforms;android-30" --sdk_root="C:\Android\SDK\cmdline-tools\tools"
+sdkmanager "sources;android-30" --sdk_root="C:\Android\SDK\cmdline-tools\tools"
+
+sdkmanager "build-tools;34.0.0" --sdk_root="C:\Android\SDK\cmdline-tools\tools"
+sdkmanager "platforms;android-34" --sdk_root="C:\Android\SDK\cmdline-tools\tools"
+sdkmanager "sources;android-34" --sdk_root="C:\Android\SDK\cmdline-tools\tools"
+
+sdkmanager "ndk;25.2.9519653" --sdk_root="C:\Android\SDK\cmdline-tools\tools"
+sdkmanager "cmdline-tools;latest" --sdk_root="C:\Android\SDK\cmdline-tools\tools"
+
+sdkmanager "cmake;3.22.1" --sdk_root="C:\Android\SDK\cmdline-tools\tools"
+
+sdkmanager "extras;android;m2repository"

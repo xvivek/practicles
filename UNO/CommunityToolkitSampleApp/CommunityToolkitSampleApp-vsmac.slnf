@@ -1,0 +1,15 @@
+{
+  "solution": {
+    "path": "CommunityToolkitSampleApp.sln",
+    "projects": [
+      "CommunityToolkitSampleApp.Tests\\CommunityToolkitSampleApp.Tests.csproj",
+      "CommunityToolkitSampleApp.UITests\\CommunityToolkitSampleApp.UITests.csproj",
+      "CommunityToolkitSampleApp.Mobile\\CommunityToolkitSampleApp.Mobile.csproj",
+      "CommunityToolkitSampleApp.Skia.Gtk\\CommunityToolkitSampleApp.Skia.Gtk.csproj",
+      "CommunityToolkitSampleApp.Wasm\\CommunityToolkitSampleApp.Wasm.csproj",
+      "CommunityToolkitSampleApp.Server\\CommunityToolkitSampleApp.Server.csproj",
+      "CommunityToolkitSampleApp.DataContracts\\CommunityToolkitSampleApp.DataContracts.csproj",
+      "CommunityToolkitSampleApp\\CommunityToolkitSampleApp.csproj"
+    ]
+  }
+}

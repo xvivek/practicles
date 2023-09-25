@@ -1,6 +1,14 @@
+Learn
+https://github.com/mysteryx93/Modern.Net-Tutorial/blob/main/2_Avalonia.md
+
+Tools
+https://github.com/Splitwirez/AvaloniaRibbon
+https://github.com/AvaloniaUI/AvaloniaEdit
+
 Samples
 https://github.com/AvaloniaCommunity/awesome-avalonia#general
-
+https://github.com/AvaloniaCommunity/awesome-avalonia
+https://github.com/AvaloniaCommunity/awesome-avalonia#web-browsers
 
 https://github.com/AvaloniaUI/Avalonia/blob/master/src/Avalonia.Themes.Fluent/Accents/BaseColorsPalette.xaml
 
@@ -9,7 +17,12 @@ https://pictogrammers.com/library/mdi/
 
 https://stackoverflow.com/questions/4437189/convert-a-geometry-to-a-path-in-wpf-with-blend
 
+Avalonia Prism
+https://github.com/EinApfelBaum/Prism.Avalonia.Samples/tree/master/src
 
+https://github.com/AvaloniaUI/Avalonia/blob/master/src/Avalonia.Dialogs/ManagedFileChooser.cs
+
+https://stackoverflow.com/questions/68292849/avaloniaui-cannot-embed-videoview-control-libvlcsharp-in-a-usercontrol
 
 <Panel>
 	<ExperimentalAcrylicBorder IsHitTestVisible="False">
