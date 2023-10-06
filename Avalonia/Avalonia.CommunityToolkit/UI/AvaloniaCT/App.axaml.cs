@@ -12,6 +12,9 @@ using System.ComponentModel;
 using Avalonia.Controls.ApplicationLifetimes;
 using AvaloniaCT.Views;
 using AvaloniaWebView;
+using Avalonia.Controls;
+using SkiaSharp;
+using System;
 
 namespace AvaloniaCT;
 
@@ -31,8 +34,9 @@ public partial class App : Application
 
         AvaloniaWebViewBuilder.Initialize(default);
     }
-    public override void OnFrameworkInitializationCompleted()
+    public override async void OnFrameworkInitializationCompleted()
     {
+#if DEBUG
         // Line below is needed to remove Avalonia data validation.
         // Without this line you will get duplicate validations from both Avalonia and CT
         BindingPlugins.DataValidators.RemoveAt(0);
@@ -53,9 +57,14 @@ public partial class App : Application
         }
 
         //DialogService.Show(null, MainWindow);
-        base.OnFrameworkInitializationCompleted();
-        
+        if (Design.IsDesignMode)
+        {
+            base.OnFrameworkInitializationCompleted();
+            return;
+        }
+
         //Locator.CurrentMutable.InitializeSplat();
         //Locator.CurrentMutable.InitializeReactiveUI();
-    }    
+#endif
+    }
 }

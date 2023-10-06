@@ -1,0 +1,43 @@
+
+https://www.youtube.com/watch?v=Coj72EzmX20&t=228s
+https://gpt.h2o.ai/
+https://github.com/h2oai/h2ogpt
+
+
+https://chat.openai.com
+google id - second one
+
+
+https://huggingface.co/
+
+
+
+ChatGPT Answer
+
+************
+
+Learning about neural networks can be an exciting journey into the field of artificial intelligence and machine learning. Here's a step-by-step guide to help you get started:
+
+Basics of Machine Learning:
+Before diving into neural networks, it's essential to understand the fundamentals of machine learning. This includes concepts like supervised learning, unsupervised learning, and reinforcement learning.
+
+Mathematics and Linear Algebra:
+Neural networks involve a lot of linear algebra and calculus. You should have a good grasp of concepts like matrices, vectors, derivatives, and gradients. 
+Khan Academy and MIT OpenCourseWare offer excellent resources for learning these topics.
+
+Programming Skills:
+Learn a programming language commonly used in machine learning, such as Python. Familiarize yourself with libraries like NumPy, pandas, and scikit-learn, which are essential for data manipulation and modeling.
+
+Deep Learning Frameworks:
+Choose a deep learning framework like TensorFlow or PyTorch. These libraries provide tools and abstractions for building neural networks efficiently.
+
+Online Courses and Tutorials:
+Enroll in online courses or follow tutorials that introduce neural networks and deep learning. Some popular platforms and courses include:
+Coursera's "Deep Learning Specialization" by Andrew Ng.
+Udacity's "Deep Learning Nanodegree."
+Fast.ai's "Practical Deep Learning for Coders" course.
+
+Books and Documentation:
+Read books on neural networks and deep learning. Good options include "Deep Learning" by Ian Goodfellow and Yoshua Bengio, or 
+"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron.
+

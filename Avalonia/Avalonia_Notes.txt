@@ -84,3 +84,87 @@ https://stackoverflow.com/questions/68292849/avaloniaui-cannot-embed-videoview-c
 
 	</Grid>
 </Panel>
+
+
+
+<Image Margin="12 4"
+       IsHitTestVisible="False"
+       Source="/Assets/FAIcon.ico"
+       Width="18" Height="18"
+       DockPanel.Dock="Left"
+       Name="WindowIcon"
+       RenderOptions.BitmapInterpolationMode="HighQuality">
+	<Image.IsVisible>
+		<OnPlatform Default="False">
+			<On Options="Windows" Content="True" />
+		</OnPlatform>
+	</Image.IsVisible>
+</Image>
+
+<TextBlock Text="{Binding Title, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+   FontSize="12"
+   IsHitTestVisible="False"
+   VerticalAlignment="Center"
+   Grid.Column="1">
+	<TextBlock.IsVisible>
+		<OnPlatform Default="False">
+			<On Options="Windows" Content="True" />
+		</OnPlatform>
+	</TextBlock.IsVisible>
+</TextBlock>
+
+<Border Grid.Column="2" Padding="6">
+	<AutoCompleteBox Name="SearchBox"
+                     MaxWidth="500"
+                     Watermark="Search"
+                     Classes="SampleApp"                                 
+                     ItemsSource="{Binding SearchTerms}">
+		<!--wnd:AppWindow.AllowInteractionInTitleBar="True"-->
+		<AutoCompleteBox.ItemTemplate>
+			<DataTemplate x:DataType="vm:MainAppSearchItem">
+				<Panel>
+					<StackPanel HorizontalAlignment="Left"
+                                VerticalAlignment="Center">
+						<TextBlock Text="{Binding Header}" />
+						<TextBlock Text="{Binding Namespace}"
+                                   Theme="{StaticResource CaptionTextBlockStyle}"
+                                   Foreground="{DynamicResource AccentTextFillColorPrimaryBrush}"
+                                   FontStyle="Italic"/>
+					</StackPanel>
+				</Panel>
+			</DataTemplate>
+		</AutoCompleteBox.ItemTemplate>
+	</AutoCompleteBox>
+</Border>
+
+
+GoToChartInkCommand
+GoToTreadingViewCommand
+
+GoToLinkCommand
+
+
+        private void NavigateToLink(object parameter)
+        {
+            //var url = Utils.GetString(((object[])parameter)[0]);
+            //var fileName = Utils.GetString(((object[])parameter)[1]);
+            //var market = Utils.GetString(((object[])parameter)[2]);
+            //var fileStatus = Utils.GetString(((object[])parameter)[3]);
+
+            //if (fileStatus == "X")
+            //{
+            //    return;
+            //}
+
+            //if (market == "BSE")
+            //{
+            //    url = $"https://www.bseindia.com/xml-data/corpfiling/AttachLive/{fileName}";
+            //}
+
+            var url = parameter as string;
+
+            if (url == null || url == "#")
+                return;
+            
+            dialogService.ShowDialog(nameof(ScreenerDialogView), new DialogParameters($"title=Market Data&url={url}"), r => { });
+        }
