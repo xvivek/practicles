@@ -32,3 +32,10 @@ packages/
 /Database/DataLoad/bkp.sql
 /Winform/BinRel
 *.zip
+*.bin
+*.o
+*.rmeta
+*.d
+Rust/hello_world/target/debug/.cargo-lock
+debug/
+release/

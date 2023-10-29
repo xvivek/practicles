@@ -2,9 +2,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:ScottPlot="clr-namespace:ScottPlot.Avalonia;assembly=ScottPlot.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="ModuleA.Views.ViewA">
 	<Grid>
-		<TextBlock>This is View A</TextBlock>
+		<StackPanel>
+			<!--Command="{Binding ShowCommand}"-->
+			<Button Name="btnShow" Margin="5" Classes="btn_style">Upload</Button>
+			<ScottPlot:AvaPlot Name="avaPlot1" Width="{Binding $parent[Window].Bounds.Width}" Height="{Binding $parent[Window].Bounds.Height}" />	
+		</StackPanel>
+		
 	</Grid>
 </UserControl>

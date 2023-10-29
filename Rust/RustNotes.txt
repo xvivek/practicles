@@ -1,0 +1,14 @@
+https://doc.rust-lang.org/book/ch01-03-hello-cargo.html
+
+Rust & Webssembly
+https://rustwasm.github.io/book/game-of-life/hello-world.html
+
+cargo --version
+
+cargo new <<ProjectName>>
+
+cargo build //to build the project 
+
+cargo run // to build and run the project 
+
+cargo check // check whether it is still compiling

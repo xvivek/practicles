@@ -10,6 +10,11 @@
     <PackageReference Include="Avalonia" Version="11.0.2" />
     <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.2" />
     <PackageReference Include="Prism.Avalonia" Version="8.1.97.11000" />
+    <PackageReference Include="ScottPlot.Avalonia" Version="4.1.68" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataService\DataService.csproj" />
   </ItemGroup>
 
 </Project>
