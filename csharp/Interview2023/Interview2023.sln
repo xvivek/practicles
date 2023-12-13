@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Torify", "Torify\Torify.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProCSharp10WithDOTNET6", "ProCSharp10WithDOTNET6", "{D1482963-AABD-4292-8A3C-44D289E5C2F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProCSharp", "ProCSharp\ProCSharp.csproj", "{32A724AF-C85B-404F-8FEA-7A5EDDC4ADF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCSharp", "ProCSharp\ProCSharp.csproj", "{32A724AF-C85B-404F-8FEA-7A5EDDC4ADF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawWPF", "RawWPF\RawWPF.csproj", "{D5FB2A68-7D5F-4D26-8DD4-52C4E0D8CD9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{32A724AF-C85B-404F-8FEA-7A5EDDC4ADF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32A724AF-C85B-404F-8FEA-7A5EDDC4ADF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32A724AF-C85B-404F-8FEA-7A5EDDC4ADF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FB2A68-7D5F-4D26-8DD4-52C4E0D8CD9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FB2A68-7D5F-4D26-8DD4-52C4E0D8CD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FB2A68-7D5F-4D26-8DD4-52C4E0D8CD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FB2A68-7D5F-4D26-8DD4-52C4E0D8CD9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
