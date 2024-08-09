@@ -63,10 +63,11 @@ namespace DataService
                 try
                 {
                     var result = await con.QueryAsync<dynamic>(
-                     "select * from get_price_data(@isin_no);",
+                     "select * from get_price_data(@isin_no,@interval);",                    
                      new
                      {
-                         @isin_no = Utils.GetDbValue(isinNo)
+                         @isin_no = Utils.GetDbValue(isinNo),
+                         @interval = "12 month",
                      });
 
                     chartData = result.Select(item => new DataService.FinancialData(item.trade_date,

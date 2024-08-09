@@ -1,0 +1,12 @@
+Start
+
+https://janav.wordpress.com/2023/10/03/hello-llms/
+https://arxiv.org/pdf/1706.03762.pdf
+
+
+Python Distilled, Python for Data Analysis, and Programming Machine Learning
+Read These 3 books then come back
+https://janav.wordpress.com/2023/10/10/how-a-machine-learns/
+ 
+Next
+https://karpathy.ai/zero-to-hero.html

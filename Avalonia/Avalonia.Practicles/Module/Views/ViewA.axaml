@@ -6,11 +6,11 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="ModuleA.Views.ViewA">
 	<Grid>
-		<StackPanel>
-			<!--Command="{Binding ShowCommand}"-->
-			<Button Name="btnShow" Margin="5" Classes="btn_style">Upload</Button>
-			<ScottPlot:AvaPlot Name="avaPlot1" Width="{Binding $parent[Window].Bounds.Width}" Height="{Binding $parent[Window].Bounds.Height}" />	
+		<StackPanel>			
+			<Button Name="btnShow" Margin="5" Classes="btn_style">Show</Button>
+			<ScottPlot:AvaPlot Name="avaPlot1" Width="800" Height="600" />	
 		</StackPanel>
+		
 		
 	</Grid>
 </UserControl>

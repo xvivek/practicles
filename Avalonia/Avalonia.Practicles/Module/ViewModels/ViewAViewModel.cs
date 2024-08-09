@@ -59,20 +59,20 @@ namespace ModuleA.ViewModels
             double nStep = 10.0;
             if (ChartPlot != null)
             {
-                var fp = ChartPlot.AddCandlesticks(ChartData.ToArray());
+                //var fp = ChartPlot.AddCandlesticks(ChartData.ToArray());
 
-                //double[] tickPositions = result.Where((x, i) => i % nStep == 0).Select(j => j.Close).ToArray();
-                //string[] tickLabels = result.Where((x, i) => i % nStep == 0).Select(x => x.Date.ToString("yyyy MMM dd")).ToArray();
-                //ChartPlot.XTicks(tickPositions, tickLabels);
-                fp.YAxisIndex = 1;
-                ChartPlot.XAxis.DateTimeFormat(true);
-                ChartPlot.YAxis.Ticks(false);
-                ChartPlot.YAxis2.Ticks(true);
-                ChartPlot.YAxis2.Label("Price (INR)");
+                ////double[] tickPositions = result.Where((x, i) => i % nStep == 0).Select(j => j.Close).ToArray();
+                ////string[] tickLabels = result.Where((x, i) => i % nStep == 0).Select(x => x.Date.ToString("yyyy MMM dd")).ToArray();
+                ////ChartPlot.XTicks(tickPositions, tickLabels);
+                //fp.YAxisIndex = 1;
+                //ChartPlot.XAxis.DateTimeFormat(true);
+                //ChartPlot.YAxis.Ticks(false);
+                //ChartPlot.YAxis2.Ticks(true);
+                //ChartPlot.YAxis2.Label("Price (INR)");
 
-                fp.ColorDown = Color.Black;
-                fp.ColorUp = Color.White;
-                fp.WickColor = Color.Transparent;
+                //fp.ColorDown = Color.Black;
+                //fp.ColorUp = Color.White;
+                //fp.WickColor = Color.Transparent;
             }
         }
     }
